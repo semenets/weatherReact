@@ -1,0 +1,56 @@
+.back {
+    font-size: 18px;
+    padding: 20px;
+}
+
+.now {
+    background:#f5f5f5;
+    width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid #d1def3;
+    border-radius: 15px;
+}
+
+.city-name {
+    font-size: 3em;
+    text-align: center;
+}
+
+.details {
+    text-align: center;
+}
+
+.details .info {
+    margin-bottom: 5px;
+    color: #3946b3;
+    font-size: 14px;
+}
+
+.details .info span {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.details .temperature {
+    font-size: 1.5em;
+}
+
+.details .description {
+    margin-bottom: 50px;
+}
+
+.forecast {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 60px;
+}
+
+.chart div {
+    margin: 0 auto;
+}
+
+.loader {
+    text-align: center;
+}

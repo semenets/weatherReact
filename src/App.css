@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+.page-title {
+    width: 100%;
+    text-align: center;
+    margin: 40px 0;
+    color: #636363;
+    font-weight: 300;
+}
+
+.city-input {
+    text-align: center;
+}
+
+.city-input input {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #d4d3d3;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.city-input input:focus {
+    border: 1px solid #a9b0e6;
+}
+
+.city-input button {
+    font-size: 16px;
+    color: #fff;
+    background: #4051d4;
+    border: none;
+    padding: 10px 20px;
+}
+
+.city-input .error {
+    color: #e02e2e;
+    height: 30px;
+    font-size: 13px;
+}
+
+.cities {
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.cities .city {
+    height: 80px;
+    width: 200px;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+}
+
+.cities .city:hover {
+    background: #f3f2f2;
+    border: 1px solid #4051d4;
+}
+
+.cities .city a {
+    height: 100%;
+    display: block;
+}
+
+.cities .city a img {
+    position: absolute;
+    left: 10px;
+    top: 30px;
+}
+
+.cities .city button {
+    padding: 2px 4px;
+    font-size: 10px;
+    background: #fff;
+    color: #fd2020;
+    border-radius: 5px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.cities .city button:hover {
+    cursor: pointer;
+    background: #fd2020;
+    color: #fff;
+    font-weight: 600;
+}
+
+.cities .city .name {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    font-size: 25px;
+}
+
+.spinner div {
+    text-align: center;
+}
+
+.error {
+    color: #fd2020;
+    margin: 20px;
+}
